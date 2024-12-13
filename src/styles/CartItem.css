@@ -1,0 +1,33 @@
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item h3 {
+    font-size: 1.2rem;
+    color: #2a2a72;
+  }
+  
+  .cart-item p {
+    color: #555;
+  }
+  
+  .cart-item button {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cart-item button:hover {
+    background: #c12e2a;
+  }
+  
